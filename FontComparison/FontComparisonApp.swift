@@ -11,6 +11,7 @@ import SwiftUI
 struct FontComparisonApp: App {
     var body: some Scene {
         WindowGroup {
+//            SizeWeightView()
             ContentView()
         }
     }

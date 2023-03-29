@@ -11,6 +11,10 @@
 		85D95AB729D4D45500E41618 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D95AB629D4D45500E41618 /* ContentView.swift */; };
 		85D95AB929D4D45700E41618 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85D95AB829D4D45700E41618 /* Assets.xcassets */; };
 		85D95ABD29D4D45700E41618 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85D95ABC29D4D45700E41618 /* Preview Assets.xcassets */; };
+		85D95AC529D4D4A000E41618 /* FontWeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D95AC329D4D4A000E41618 /* FontWeightView.swift */; };
+		85D95AC629D4D4A000E41618 /* SystemSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D95AC429D4D4A000E41618 /* SystemSizeView.swift */; };
+		85D95AC829D4D54A00E41618 /* SizeWeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D95AC729D4D54A00E41618 /* SizeWeightView.swift */; };
+		85D95ACA29D4DAF300E41618 /* ColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D95AC929D4DAF300E41618 /* ColorsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		85D95AB829D4D45700E41618 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85D95ABA29D4D45700E41618 /* FontComparison.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FontComparison.entitlements; sourceTree = "<group>"; };
 		85D95ABC29D4D45700E41618 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		85D95AC329D4D4A000E41618 /* FontWeightView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontWeightView.swift; sourceTree = "<group>"; };
+		85D95AC429D4D4A000E41618 /* SystemSizeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemSizeView.swift; sourceTree = "<group>"; };
+		85D95AC729D4D54A00E41618 /* SizeWeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeWeightView.swift; sourceTree = "<group>"; };
+		85D95AC929D4DAF300E41618 /* ColorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 			children = (
 				85D95AB429D4D45500E41618 /* FontComparisonApp.swift */,
 				85D95AB629D4D45500E41618 /* ContentView.swift */,
+				85D95AC329D4D4A000E41618 /* FontWeightView.swift */,
+				85D95AC429D4D4A000E41618 /* SystemSizeView.swift */,
+				85D95AC729D4D54A00E41618 /* SizeWeightView.swift */,
+				85D95AC929D4DAF300E41618 /* ColorsView.swift */,
 				85D95AB829D4D45700E41618 /* Assets.xcassets */,
 				85D95ABA29D4D45700E41618 /* FontComparison.entitlements */,
 				85D95ABB29D4D45700E41618 /* Preview Content */,
@@ -139,7 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85D95ACA29D4DAF300E41618 /* ColorsView.swift in Sources */,
 				85D95AB729D4D45500E41618 /* ContentView.swift in Sources */,
+				85D95AC829D4D54A00E41618 /* SizeWeightView.swift in Sources */,
+				85D95AC529D4D4A000E41618 /* FontWeightView.swift in Sources */,
+				85D95AC629D4D4A000E41618 /* SystemSizeView.swift in Sources */,
 				85D95AB529D4D45500E41618 /* FontComparisonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
