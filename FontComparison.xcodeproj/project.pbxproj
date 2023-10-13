@@ -7,27 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8518BB182AA68D2D00089B89 /* FontDesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8518BB172AA68D2D00089B89 /* FontDesignView.swift */; };
+		8518BB1A2AA6983900089B89 /* FontWeightTextListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8518BB192AA6983900089B89 /* FontWeightTextListView.swift */; };
+		8518BB1D2AA69EC600089B89 /* FontStyleTextListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8518BB1C2AA69EC600089B89 /* FontStyleTextListView.swift */; };
+		8518BB1F2AA6B39B00089B89 /* SystemFontDesignerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8518BB1E2AA6B39B00089B89 /* SystemFontDesignerView.swift */; };
+		8518BB212AA6B53F00089B89 /* CGFloat Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8518BB202AA6B53F00089B89 /* CGFloat Extensions.swift */; };
+		8518BB232AA6BA0900089B89 /* ClearableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8518BB222AA6BA0900089B89 /* ClearableTextField.swift */; };
+		859C16A52AAA58AA00E8D911 /* SizeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859C16A42AAA58AA00E8D911 /* SizeSlider.swift */; };
+		85A6E5062AA7B1680064993E /* FontStylingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A6E5052AA7B1680064993E /* FontStylingView.swift */; };
+		85A6E50A2AA7DB7B0064993E /* View Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A6E5092AA7DB7B0064993E /* View Extensions.swift */; };
+		85A95DDD2AAB8B1700FA78A2 /* SectionHeaderTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A95DDC2AAB8B1700FA78A2 /* SectionHeaderTitle.swift */; };
 		85D95AB529D4D45500E41618 /* FontComparisonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D95AB429D4D45500E41618 /* FontComparisonApp.swift */; };
-		85D95AB729D4D45500E41618 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D95AB629D4D45500E41618 /* ContentView.swift */; };
+		85D95AB729D4D45500E41618 /* FontMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D95AB629D4D45500E41618 /* FontMenuView.swift */; };
 		85D95AB929D4D45700E41618 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85D95AB829D4D45700E41618 /* Assets.xcassets */; };
 		85D95ABD29D4D45700E41618 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85D95ABC29D4D45700E41618 /* Preview Assets.xcassets */; };
 		85D95AC529D4D4A000E41618 /* FontWeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D95AC329D4D4A000E41618 /* FontWeightView.swift */; };
-		85D95AC629D4D4A000E41618 /* SystemSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D95AC429D4D4A000E41618 /* SystemSizeView.swift */; };
-		85D95AC829D4D54A00E41618 /* SizeWeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D95AC729D4D54A00E41618 /* SizeWeightView.swift */; };
+		85D95AC629D4D4A000E41618 /* FontWidthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D95AC429D4D4A000E41618 /* FontWidthView.swift */; };
 		85D95ACA29D4DAF300E41618 /* ColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D95AC929D4DAF300E41618 /* ColorsView.swift */; };
+		85EAB9D62AAB96A20069E23F /* FontSizeSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EAB9D52AAB96A20069E23F /* FontSizeSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8518BB172AA68D2D00089B89 /* FontDesignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontDesignView.swift; sourceTree = "<group>"; };
+		8518BB192AA6983900089B89 /* FontWeightTextListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontWeightTextListView.swift; sourceTree = "<group>"; };
+		8518BB1C2AA69EC600089B89 /* FontStyleTextListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStyleTextListView.swift; sourceTree = "<group>"; };
+		8518BB1E2AA6B39B00089B89 /* SystemFontDesignerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemFontDesignerView.swift; sourceTree = "<group>"; };
+		8518BB202AA6B53F00089B89 /* CGFloat Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat Extensions.swift"; sourceTree = "<group>"; };
+		8518BB222AA6BA0900089B89 /* ClearableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearableTextField.swift; sourceTree = "<group>"; };
+		859C16A42AAA58AA00E8D911 /* SizeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeSlider.swift; sourceTree = "<group>"; };
+		85A6E5052AA7B1680064993E /* FontStylingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStylingView.swift; sourceTree = "<group>"; };
+		85A6E5092AA7DB7B0064993E /* View Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View Extensions.swift"; sourceTree = "<group>"; };
+		85A95DDC2AAB8B1700FA78A2 /* SectionHeaderTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderTitle.swift; sourceTree = "<group>"; };
 		85D95AB129D4D45500E41618 /* FontComparison.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontComparison.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85D95AB429D4D45500E41618 /* FontComparisonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontComparisonApp.swift; sourceTree = "<group>"; };
-		85D95AB629D4D45500E41618 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		85D95AB629D4D45500E41618 /* FontMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontMenuView.swift; sourceTree = "<group>"; };
 		85D95AB829D4D45700E41618 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85D95ABA29D4D45700E41618 /* FontComparison.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FontComparison.entitlements; sourceTree = "<group>"; };
 		85D95ABC29D4D45700E41618 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		85D95AC329D4D4A000E41618 /* FontWeightView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontWeightView.swift; sourceTree = "<group>"; };
-		85D95AC429D4D4A000E41618 /* SystemSizeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemSizeView.swift; sourceTree = "<group>"; };
-		85D95AC729D4D54A00E41618 /* SizeWeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeWeightView.swift; sourceTree = "<group>"; };
+		85D95AC429D4D4A000E41618 /* FontWidthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontWidthView.swift; sourceTree = "<group>"; };
+		85D95AC729D4D54A00E41618 /* WeightWidthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightWidthView.swift; sourceTree = "<group>"; };
 		85D95AC929D4DAF300E41618 /* ColorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsView.swift; sourceTree = "<group>"; };
+		85EAB9D52AAB96A20069E23F /* FontSizeSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSizeSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +62,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8518BB1B2AA69E9700089B89 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				8518BB192AA6983900089B89 /* FontWeightTextListView.swift */,
+				8518BB1C2AA69EC600089B89 /* FontStyleTextListView.swift */,
+				8518BB222AA6BA0900089B89 /* ClearableTextField.swift */,
+				859C16A42AAA58AA00E8D911 /* SizeSlider.swift */,
+				85A95DDC2AAB8B1700FA78A2 /* SectionHeaderTitle.swift */,
+				85EAB9D52AAB96A20069E23F /* FontSizeSection.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		85A6E5072AA7D6E80064993E /* DNU */ = {
+			isa = PBXGroup;
+			children = (
+				85D95AC729D4D54A00E41618 /* WeightWidthView.swift */,
+			);
+			path = DNU;
+			sourceTree = "<group>";
+		};
+		85A6E5082AA7DB6F0064993E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8518BB202AA6B53F00089B89 /* CGFloat Extensions.swift */,
+				85A6E5092AA7DB7B0064993E /* View Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		85D95AA829D4D45500E41618 = {
 			isa = PBXGroup;
 			children = (
@@ -61,11 +112,16 @@
 			isa = PBXGroup;
 			children = (
 				85D95AB429D4D45500E41618 /* FontComparisonApp.swift */,
-				85D95AB629D4D45500E41618 /* ContentView.swift */,
+				85D95AB629D4D45500E41618 /* FontMenuView.swift */,
+				8518BB1E2AA6B39B00089B89 /* SystemFontDesignerView.swift */,
 				85D95AC329D4D4A000E41618 /* FontWeightView.swift */,
-				85D95AC429D4D4A000E41618 /* SystemSizeView.swift */,
-				85D95AC729D4D54A00E41618 /* SizeWeightView.swift */,
+				85D95AC429D4D4A000E41618 /* FontWidthView.swift */,
+				85A6E5052AA7B1680064993E /* FontStylingView.swift */,
+				8518BB172AA68D2D00089B89 /* FontDesignView.swift */,
 				85D95AC929D4DAF300E41618 /* ColorsView.swift */,
+				85A6E5082AA7DB6F0064993E /* Extensions */,
+				8518BB1B2AA69E9700089B89 /* Custom Views */,
+				85A6E5072AA7D6E80064993E /* DNU */,
 				85D95AB829D4D45700E41618 /* Assets.xcassets */,
 				85D95ABA29D4D45700E41618 /* FontComparison.entitlements */,
 				85D95ABB29D4D45700E41618 /* Preview Content */,
@@ -151,11 +207,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8518BB1D2AA69EC600089B89 /* FontStyleTextListView.swift in Sources */,
 				85D95ACA29D4DAF300E41618 /* ColorsView.swift in Sources */,
-				85D95AB729D4D45500E41618 /* ContentView.swift in Sources */,
-				85D95AC829D4D54A00E41618 /* SizeWeightView.swift in Sources */,
+				85D95AB729D4D45500E41618 /* FontMenuView.swift in Sources */,
+				8518BB212AA6B53F00089B89 /* CGFloat Extensions.swift in Sources */,
+				85A95DDD2AAB8B1700FA78A2 /* SectionHeaderTitle.swift in Sources */,
+				8518BB1A2AA6983900089B89 /* FontWeightTextListView.swift in Sources */,
+				85A6E50A2AA7DB7B0064993E /* View Extensions.swift in Sources */,
+				85EAB9D62AAB96A20069E23F /* FontSizeSection.swift in Sources */,
+				85A6E5062AA7B1680064993E /* FontStylingView.swift in Sources */,
+				859C16A52AAA58AA00E8D911 /* SizeSlider.swift in Sources */,
+				8518BB1F2AA6B39B00089B89 /* SystemFontDesignerView.swift in Sources */,
+				8518BB232AA6BA0900089B89 /* ClearableTextField.swift in Sources */,
+				8518BB182AA68D2D00089B89 /* FontDesignView.swift in Sources */,
 				85D95AC529D4D4A000E41618 /* FontWeightView.swift in Sources */,
-				85D95AC629D4D4A000E41618 /* SystemSizeView.swift in Sources */,
+				85D95AC629D4D4A000E41618 /* FontWidthView.swift in Sources */,
 				85D95AB529D4D45500E41618 /* FontComparisonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +351,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "System Font Lab";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -295,11 +363,11 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.majorsoft.FontComparison;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -323,6 +391,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "System Font Lab";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -333,11 +403,11 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.majorsoft.FontComparison;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;

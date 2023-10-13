@@ -31,8 +31,7 @@ struct ColorsView: View {
     ]
     
     var body: some View {
-        Form {
-                
+        List {
             ForEach(colors, id: \.0) { aColor in
                 colorCell(aColor)
             }
@@ -57,8 +56,7 @@ struct ColorsView: View {
     }
 }
 
-struct ColorsView_Previews: PreviewProvider {
-    static var previews: some View {
+
+#Preview {
         ColorsView()
-    }
 }

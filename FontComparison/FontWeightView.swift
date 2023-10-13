@@ -9,35 +9,44 @@ import SwiftUI
 
 
 struct FontWeightView: View {
+    @State private var fontSize: CGFloat = 17
+    @State private var customText: String = ""
+    
+    
+    private var displayText: String {
+        customText.isEmpty ? "\(fontSize.precisionString()) Points" : customText
+    }
+    
     
     var body: some View {
-        
         VStack {
-            Text("Black Text")
-                .fontWeight(.black)
-            Text("Bold Text")
-                .fontWeight(.bold)
-            Text("Heavy Text")
-                .fontWeight(.heavy)
-            Text("Light Text")
-                .fontWeight(.light)
-            Text("Medium Text")
-                .fontWeight(.medium)
-            Text("Regular Text")
-                .fontWeight(.regular)
-            Text("Semi-bold Text")
-                .fontWeight(.semibold)
-            Text("Thin Text")
-                .fontWeight(.thin)
-            Text("Ultra-light Text")
-                .fontWeight(.ultraLight)
+            SectionHeaderTitle(title: "\(fontSize.precisionString()) Point System Font", fontWidth: .standard, fontDesign: .default)
+            
+            ScrollView {
+                FontWeightTextListView(text: displayText, systemTextSize: fontSize)
+                    .padding(.top)
+            }
+            
+            FontSizeSection(customText: $customText, fontSize: $fontSize)
+            
+            VStack {
+                SectionHeaderTitle(title: "Sample Text")
+                ClearableTextField(customText: $customText)
+            }
+            .padding(.bottom)
         }
+        .padding()
         
+    }
+    
+}
+
+
+#Preview {
+    NavigationStack {
+        FontWeightView()
+            .navigationTitle("Font Weight")
+            .navigationBarTitleDisplayMode(.inline)
     }
 }
 
-struct FontWeightView_Previews: PreviewProvider {
-    static var previews: some View {
-        FontWeightView()
-    }
-}
